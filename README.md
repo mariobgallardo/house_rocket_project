@@ -13,6 +13,7 @@ The two main questions behind the project are:
 2) Once purchased, when it's the best time to sell it and for what price?
 
 This project also wants to validate some hypothesis through data analysis:
+
 H1) Properties with a good view and waterfront view are 30% more expensive on average than properties with good view but withoud waterfront view;
 
 H2) Properties with building year before 1955 are 50% cheaper on average;
