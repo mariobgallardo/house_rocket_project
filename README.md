@@ -25,6 +25,7 @@ Our data has been obtained through the link bellow:
 https://www.kaggle.com/harlfoxem/housesalesprediction
 
 This dataset shows all properties available to purchase. Check bellow to see some attributes and it's mean:
+
 |
 | ------------- |:---------------------------------------------------------------------------------|
 | id            | Unique ID for each home sold                                                     |                             
