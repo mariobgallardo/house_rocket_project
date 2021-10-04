@@ -13,11 +13,48 @@ The House Rocket's CEO wish to maximize the company profits by finding great opp
 
 The company's strategy is to buy good properties with low prices to sell them later with higher prices. The greater the difference, the bigger the company's profit. However, there are many features influencing their prices and we don't have enought people to analyze this dataset manually. 
 
-### 1.2. Business question:
+### 1.2. Business Question:
+In order to take it, it will be provided 2 lists indicating the best properties to buy and the best period to sell them, as well as a visualization link. 
 The two main questions behind the project are:
 1) What are the properties that house rocket should buy, and for what price?
 
 2) Once purchased, when it's the best time to sell it and for what price?
+
+### 1.3. Data Overview:
+Our data has been obtained through the link bellow:
+https://www.kaggle.com/harlfoxem/housesalesprediction
+
+This dataset shows all properties available to purchase. Check bellow to see some attributes and it's mean:
+
+| id            | Unique ID for each home sold
+| date          | Date of the home sale
+| price         | Price of each home sold
+| bedrooms      | Number of bedrooms
+| bathrooms     | Number of bathrooms, where .5 accounts for a room with a toilet but no shower
+| sqft_living   | Square footage of the apartments interior living space
+| sqft_lot      | Square footage of the land space
+| floors        | Number of floors
+| waterfront    | A dummy variable for whether the apartment was overlooking the waterfront or not
+| view          | An index from 0 to 4 of how good the view of the property was
+| condition     | An index from 1 to 5 on the condition of the apartment,
+| grade         | An index from 1 to 13, where 1-3 falls short of building construction and design, 7 has an average level of construction and design, and 11-13 have a high quality level of construction and design.
+| sqft_above    | The square footage of the interior housing space that is above ground level
+| sqft_basement | The square footage of the interior housing space that is below ground level
+| yr_built      | The year the house was initially built
+| yr_renovated  | The year of the house’s last renovation
+| zipcode       | What zipcode area the house is in
+| lat           | Lattitude
+| long          | Longitude
+| sqft_living15 | The square footage of interior housing living space for the nearest 15 neighbors
+| sqft_lot15    | The square footage of the land lots of the nearest 15 neighbors
+
+
+
+
+
+
+
+
 
 This project also wants to validate some hypothesis through data analysis:
 
