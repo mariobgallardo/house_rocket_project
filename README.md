@@ -39,19 +39,18 @@ This dataset shows all properties available to purchase. Check bellow to see som
 | waterfront    | A dummy variable for whether the apartment was overlooking the waterfront or not |
 | view          | An index from 0 to 4 of how good the view of the property was                    |
 | condition     | An index from 1 to 5 on the condition of the apartment                           |                 
-| grade         | An index from 1 to 13, where 1-3 falls short of building construction and design,|
+| grade         | An index from 1 to 13, where 1-3 falls short of building construction and design,7 has an average level of construction and design, and 11-13 have a high quality level of construction and design.|
+| sqft_above    | The square footage of the interior housing space that is above ground level      |
+| sqft_basement | The square footage of the interior housing space that is below ground level      |
+| yr_built      | The year the house was initially built                                           |     
+| yr_renovated  | The year of the house’s last renovation                                          | 
+| zipcode       | What zipcode area the house is in                                                |   
+| lat           | Lattitude                                                                        |
+| long          | Longitude                                                                        |
+| sqft_living15 | The square footage of interior housing living space for the nearest 15 neighbors |
+| sqft_lot15    | The square footage of the land lots of the nearest 15 neighbors                  |
 
 
-7 has an average level of construction and design, and 11-13 have a high quality level of construction and design.
-| sqft_above    | The square footage of the interior housing space that is above ground level
-| sqft_basement | The square footage of the interior housing space that is below ground level
-| yr_built      | The year the house was initially built
-| yr_renovated  | The year of the house’s last renovation
-| zipcode       | What zipcode area the house is in
-| lat           | Lattitude
-| long          | Longitude
-| sqft_living15 | The square footage of interior housing living space for the nearest 15 neighbors
-| sqft_lot15    | The square footage of the land lots of the nearest 15 neighbors
 
 
 
