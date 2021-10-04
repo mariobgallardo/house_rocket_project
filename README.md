@@ -2,12 +2,18 @@
 
 ![alt text](https://fasthomes.org/public/img/fast/house-for-sale.jpg)
 
-This project aims to assist a real estate company to maximize it's proffits by indicating the best properties to buy as well the best time to sell them, through data analysis.
+This project aims to assist a real estate company to maximize it's proffits by indicating a selection of properties based on the best conditions, so the company could buy and sell them. 
 
-Business Understanding
-House Rocket company belongs to the real estate sector, working with buying and selling properties. It has been consolidated by making good decisions based on some questions such as the ones bellow.
+## 1. House Rocket
+### 1.1. Business Understanding:
 
-Business question
+House Rocket company belongs to the real estate sector and work with buying and selling properties. It has been consolidated by making good decisions using the technology on your favor.
+
+The House Rocket's CEO wish to maximize the company profits by finding great opportunities, therefore this case will provide insights so the company can find these opportunities. 
+
+The company's strategy is to buy good properties with low prices to sell them later with higher prices. The greater the difference, the bigger the company's profit. However, there are many features influencing their prices and we don't have enought people to analyze this dataset manually. 
+
+### 1.2. Business question:
 The two main questions behind the project are:
 1) What are the properties that house rocket should buy, and for what price?
 
