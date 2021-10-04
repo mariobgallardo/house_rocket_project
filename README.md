@@ -1,6 +1,6 @@
 # INSIGHT PROJECT - House Rocket
 
-(https://fasthomes.org/public/img/fast/house-for-sale.jpg)
+![alt text](https://fasthomes.org/public/img/fast/house-for-sale.jpg)
 
 This project aims to assist a real estate company to maximize it's proffits by indicating the best properties to buy as well the best time to sell them, through data analysis.
 
