@@ -57,7 +57,10 @@ Considering the business understanding during the exploratory data analysis, som
 * Duplicate "ID" values were removed, considering the newest ones
 * For properties condition's scale we considered: 'bad' for condition < 3, 'regular' for condition = 3 and 'good' for condition > 3.
 * The year's season has a great influency on our prices. By research, summer season was considered the best period to sell properties
-* The business team assumed that properties bouth out of summer season and with a price bellow the region's median price shall be sold with 30% over the purchased price and properties bouth on summer season and with a price bellow the region's median price shall be sold with 10% over the purchased price.
+* The business team assumed that properties bouth out of spring season and with a price bellow the region's median price shall be sold with 30% over the purchase price and properties bouth on spring season and with a price bellow the region's median price shall be sold with 10% over the purchase price. 
+reference: https://themortgagereports.com/44135/whats-the-best-time-of-year-to-sell-a-home
+
+
 
 
 
