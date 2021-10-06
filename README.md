@@ -64,6 +64,11 @@ https://themortgagereports.com/44135/whats-the-best-time-of-year-to-sell-a-home
 ### 2.1. Data analysis:
 After collecting the data, it was necessary to treat and explore it. On these steps, data was cleaned, transformed (types) and analysed with the assistance of descriptive statistics in order to identify outliers. 
 
+* Created Features:
+** Season: Season when property was purchased
+** Sell Price: Price that property shall be sold, based on the season
+** Profit: Represents the difference between sell price and price
+
 * Descriptive Statistics:
 
 | attributes    |	maximum   |	minimum |	mean          |	median    |	std           |
