@@ -53,10 +53,12 @@ This dataset shows all properties available to purchase. Check bellow to see som
 ### 1.4. Business Assumptions:
 Considering the business understanding during the exploratory data analysis, some assumptions were considered in order to create a few insights. The assumptions are listed bellow:
 
-* Values (11 and 33) on column bathrooms were considered outliers, adjusting their values on properties with similar square foot living. 
+* Values (11 and 33) on column bathrooms were considered outliers, adjusting their values based on properties with similar square foot living.
+* Values above 950.000 on column sqft_lot were considered outliers, adjusting their values based on properties with similar price 
 * Duplicate "ID" values were removed, considering the newest ones
 * For properties condition's scale we considered: 'bad' for condition < 3, 'regular' for condition = 3 and 'good' for condition > 3.
 * The year's season has a great influency on our prices. By research, summer season was considered the best period to sell properties
+* The features with the greatest impact on properties price were location (zipcode) and condition, the reason why both were used on properties sellection
 * The business team assumed that properties bouth out of spring season and with a price bellow the region's median price shall be sold with 30% over the purchase price and properties bouth on spring season and with a price bellow the region's median price shall be sold with 10% over the purchase price. 
 https://themortgagereports.com/44135/whats-the-best-time-of-year-to-sell-a-home
 
@@ -66,6 +68,7 @@ After collecting the data, it was necessary to treat and explore it. On these st
 
 * Created Features:
   * Median Price: Median price obtained based on each zipcode
+  * Status: Represents if the property should be bought or not
   * Season: Season when property was purchased
   * Sell Price: Price that property shall be sold, based on the season
   * Profit: Represents the difference between sell price and price
@@ -87,25 +90,21 @@ After collecting the data, it was necessary to treat and explore it. On these st
 |	sqft_living15 |	6210.0    |	399.0   |	1988.314378   |	1840.00   |	685.683099    |
 |	sqft_lot15    |	871200.0  |	651.0   |	12785.961280  |	7620.00   |	27374.828923  |
 
-### 2.2. 
+### 2.2. Solving Business Questions:
+The entire project was made thinking on the two final lists that we were suposed to provide to the CEO of House Rocket.
+To do so, a few steps were followed, as shown bellow:
 
+1) What are the properties that house rocket should buy, and for what price?
+* Groupby all properties by region (zipcode)
+* Find the median price of each zipcode
+* Merge the median price on the original dataset, according to the zipcode
+* Assumed that all properties that had a price bellow the median price and that were not in a bad condition should be bought
+* The response was setted on the column 'status'
+* Export to excel a list of properties to buy
 
+2) Once purchased, when it's the best time to sell it and for what price?
+* Created a new column named 'season' where it was filled up according the purchase date of each property of the buy list
+* Considered spring as the best season to sell
+* Properties that were bought on spring should be sold with an increase of 10% and properties bought on other seasons should be sold with an increase of 30% 
 
-
-
-
-
-This project also wants to validate some hypothesis through data analysis:
-
-H1) Properties with a good condition and waterfront view are 50% more expensive on average than properties with good condition but without waterfront view;
-
-H2) Properties with building year before 1955 are cheaper on average;
-
-H3) Properties without basement have a square footage of the land space 15% bigger than properties with it;
-
-H4) The propertie's price growth YoY (year over year) it's 10%;
-
-H5) Properties with 3 bathrooms have a MoM growth of 15%.
-
-H6) Properties with 2 or more floors are 40% more expensive on average than the others
 
