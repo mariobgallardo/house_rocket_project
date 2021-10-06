@@ -65,6 +65,7 @@ https://themortgagereports.com/44135/whats-the-best-time-of-year-to-sell-a-home
 After collecting the data, it was necessary to treat and explore it. On these steps, data was cleaned, transformed (types) and analysed with the assistance of descriptive statistics in order to identify outliers. 
 
 * Created Features:
+  * Median Price: Median price obtained based on each zipcode
   * Season: Season when property was purchased
   * Sell Price: Price that property shall be sold, based on the season
   * Profit: Represents the difference between sell price and price
@@ -86,7 +87,7 @@ After collecting the data, it was necessary to treat and explore it. On these st
 |	sqft_living15 |	6210.0    |	399.0   |	1988.314378   |	1840.00   |	685.683099    |
 |	sqft_lot15    |	871200.0  |	651.0   |	12785.961280  |	7620.00   |	27374.828923  |
 
-
+### 2.2. 
 
 
 
