@@ -50,7 +50,9 @@ This dataset shows all properties available to purchase. Check bellow to see som
 | sqft_living15 | The square footage of interior housing living space for the nearest 15 neighbors |
 | sqft_lot15    | The square footage of the land lots of the nearest 15 neighbors                  |
 
-
+### 1.4. Business Assumptions:
+Considering the business understanding during the exploratory data analysis, some assumptions were considered in order to create a few insights. The assumptions are listed bellow:
+..**
 
 
 
