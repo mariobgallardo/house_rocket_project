@@ -65,6 +65,7 @@ https://themortgagereports.com/44135/whats-the-best-time-of-year-to-sell-a-home
 After collecting the data, it was necessary to treat and explore it. On these steps, data was cleaned, transformed (types) and analysed with the assistance of descriptive statistics in order to identify outliers. 
 
 * Descriptive Statistics:
+
 | attributes    |	maximum   |	minimum |	mean          |	median    |	std           |
 |---------------|:---------:|:-------:|:-------------:|:---------:|:-------------:|
 | price         |	7700000.0 |	75000.0 |	541649.962726 |	450000.00 |	367306.361583 |
