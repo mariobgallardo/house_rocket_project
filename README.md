@@ -52,7 +52,12 @@ This dataset shows all properties available to purchase. Check bellow to see som
 
 ### 1.4. Business Assumptions:
 Considering the business understanding during the exploratory data analysis, some assumptions were considered in order to create a few insights. The assumptions are listed bellow:
-..**
+
+..** Values (11 and 33) on column bathrooms were considered outliers, adjusting their values on properties with similar square foot living. 
+..** Duplicate "ID" values were removed, considering the newest ones
+..** For properties condition's scale we considered: 'bad' for condition < 3, 'regular' for condition = 3 and 'good' for condition > 3.
+..** The year's season has a great influency on our prices. By research, summer season was considered the best period to sell properties
+..** The business team assumed that properties bouth out of summer season and with a price bellow the region's median price shall be sold with 30% over the purchased price and properties bouth on summer season and with a price bellow the region's median price shall be sold with 10% over the purchased price.
 
 
 
