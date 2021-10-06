@@ -58,9 +58,27 @@ Considering the business understanding during the exploratory data analysis, som
 * For properties condition's scale we considered: 'bad' for condition < 3, 'regular' for condition = 3 and 'good' for condition > 3.
 * The year's season has a great influency on our prices. By research, summer season was considered the best period to sell properties
 * The business team assumed that properties bouth out of spring season and with a price bellow the region's median price shall be sold with 30% over the purchase price and properties bouth on spring season and with a price bellow the region's median price shall be sold with 10% over the purchase price. 
-reference: https://themortgagereports.com/44135/whats-the-best-time-of-year-to-sell-a-home
+https://themortgagereports.com/44135/whats-the-best-time-of-year-to-sell-a-home
 
+## 2. Planning Solution
+### 2.1. Data analysis:
+After collecting the data, it was necessary to treat and explore it. On these steps, data was cleaned, transformed (types) and analysed with the assistance of descriptive statistics in order to identify outliers. 
 
+* Descriptive Statistics:
+| attributes    |	maximum   |	minimum |	mean          |	median    |	std           |
+|---------------|:---------:|:-------:|:-------------:|:---------:|:-------------:|
+| price         |	7700000.0 |	75000.0 |	541649.962726 |	450000.00 |	367306.361583 |
+|	bedrooms      |	10.0      |	0.0     |	3.369845      |	3.00      |	0.905393      |
+|	bathrooms     |	8.0       |	0.0     |	2.117349      |	2.25      |	0.769895      |
+|	sqft_living   |	13540.0   |	290.0   |	2082.704936   |	1920.00   |	919.125029    |
+|	sqft_lot      |	920423.0  |	520.0   |	14819.491045  |	7614.00   |	36763.790341  |
+|	floors        |	3.5       |	1.0     |	1.496198      |	1.50      |	0.540376      |
+|	sqft_above    |	9410.0    |	290.0   |	1790.960440   |	1560.00   |	829.007154    |
+|	sqft_basement |	4820.0    |	0.0     |	291.744495    |	0.00      |	442.771655    |
+|	yr_built      |	2015.0    |	1900.0  |	1971.098433   |	1975.00   |	29.384591     |
+|	yr_renovated  |	2015.0    |	0.0     |	84.729800     |	0.00      |	402.421625    |
+|	sqft_living15 |	6210.0    |	399.0   |	1988.314378   |	1840.00   |	685.683099    |
+|	sqft_lot15    |	871200.0  |	651.0   |	12785.961280  |	7620.00   |	27374.828923  |
 
 
 
