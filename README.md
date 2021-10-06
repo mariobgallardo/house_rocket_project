@@ -62,13 +62,13 @@ This dataset shows all properties available to purchase. Check bellow to see som
 
 This project also wants to validate some hypothesis through data analysis:
 
-H1) Properties with a good view and waterfront view are 30% more expensive on average than properties with good view but withoud waterfront view;
+H1) Properties with a good condition and waterfront view are 50% more expensive on average than properties with good condition but without waterfront view;
 
-H2) Properties with building year before 1955 are 50% cheaper on average;
+H2) Properties with building year before 1955 are cheaper on average;
 
-H3) Properties without basement have a square footage of the land space 30% bigger than properties with it;
+H3) Properties without basement have a square footage of the land space 15% bigger than properties with it;
 
-H4) The propertie's price growth YoY (year over year) it's 5%;
+H4) The propertie's price growth YoY (year over year) it's 10%;
 
 H5) Properties with 3 bathrooms have a MoM growth of 15%.
 
