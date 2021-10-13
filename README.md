@@ -114,4 +114,7 @@ The first two tables refers to the properties recommendation, being the first on
 
 By filtering, it's possible to see on the Region Overview section two maps, such as portfolio density (indicating the location and features of each propertie) and a profit density (indicating the amount of profit by region).
 
+![alt text](https://raw.githubusercontent.com/mariobgallardo/house_rocket_project/main/images/Portifolio%20density.JPG)
+
+![alt text](https://raw.githubusercontent.com/mariobgallardo/house_rocket_project/main/images/Profit%20density.JPG)
 
