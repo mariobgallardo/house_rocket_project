@@ -24,7 +24,7 @@ The two main questions behind the project are:
 Our data has been obtained through the link bellow:
 https://www.kaggle.com/harlfoxem/housesalesprediction
 
-This dataset shows all properties available to purchase. Check bellow to see some attributes and it's mean:
+This dataset shows all properties available to purchase. Check bellow to see some attribute's description:
 
 | FEATURE       | DESCRIPTION                                                                      |
 | ------------- |:--------------------------------------------------------------------------------:|
@@ -57,7 +57,7 @@ Considering the business understanding during the exploratory data analysis, som
 * Values above 950.000 on column sqft_lot were considered outliers, adjusting their values based on properties with similar price 
 * Duplicate "ID" values were removed, considering the newest ones
 * For properties condition's scale we considered: 'bad' for condition < 3, 'regular' for condition = 3 and 'good' for condition > 3.
-* The year's season has a great influency on our prices. By research, summer season was considered the best period to sell properties
+* The year's season has a great influency on our prices. By research, spring season was considered the best period to sell properties
 * The features with the greatest impact on properties price were location (zipcode) and condition, the reason why both were used on properties sellection
 * The business team assumed that properties bouth out of spring season and with a price bellow the region's median price shall be sold with 30% over the purchase price and properties bouth on spring season and with a price bellow the region's median price shall be sold with 10% over the purchase price. 
 https://themortgagereports.com/44135/whats-the-best-time-of-year-to-sell-a-home
@@ -91,7 +91,7 @@ After collecting the data, it was necessary to treat and explore it. On these st
 |	sqft_lot15    |	871200.0  |	651.0   |	12785.961280  |	7620.00   |	27374.828923  |
 
 ### 2.2. Solving Business Questions:
-The entire project was made thinking on the two final lists that we were suposed to provide to the CEO of House Rocket.
+The entire project was made to create the two final lists that we were suposed to provide to the CEO of House Rocket, as well as our visualization app.
 To do so, a few steps were followed, as shown bellow:
 
 1) What are the properties that house rocket should buy, and for what price?
@@ -106,5 +106,12 @@ To do so, a few steps were followed, as shown bellow:
 * Created a new column named 'season' where it was filled up according the purchase date of each property of the buy list
 * Considered spring as the best season to sell
 * Properties that were bought on spring should be sold with an increase of 10% and properties bought on other seasons should be sold with an increase of 30% 
+
+### 2.3. Visualization:
+The purpose of the visualization app is to help us to find insights by providing tables, maps and graphs which align with the two filters ('zipcode' and 'condition'). 
+
+The first two tables refers to the properties recommendation, being the first one a purchase list and the second one a selling list, including the best period and the profit gain. 
+
+By filtering, it's possible to see on the Region Overview section two maps, such as portfolio density (indicating the location and features of each propertie) and a profit density (indicating the amount of profit by region).
 
 
