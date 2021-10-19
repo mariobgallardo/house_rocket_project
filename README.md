@@ -112,7 +112,7 @@ The purpose of the visualization app is to help us to find insights by providing
 
 The first two tables refers to the properties recommendation, being the first one a purchase list and the second one a selling list, including the best period and the profit gain. 
 
-By filtering, it's possible to see on the Region Overview section two maps, such as portfolio density (indicating the location and features of each propertie) and a profit density (indicating the amount of profit by region).
+By filtering, it's possible to see on the Region Overview section two maps, such as portfolio density (indicating the location and features of each property) and a profit density (indicating the amount of profit by region).
 
 ![alt text](https://raw.githubusercontent.com/mariobgallardo/house_rocket_project/main/images/Portifolio%20density.JPG)
 
