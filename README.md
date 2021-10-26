@@ -124,10 +124,10 @@ By filtering, it's possible to see on the Region Overview section two maps, such
 
 ![alt text](https://raw.githubusercontent.com/mariobgallardo/house_rocket_project/main/images/Profit%20density.JPG)
 
-## 3. Insights
-### 3.1. Insights and Hypothesys:
+## 3. Insights and Hypothesis
+### 3.1. Insights:
 
-There are two groups of properties that were used on our analysis. The first one involves only the sellected properties, based on the conditions mentioned before, and it was used to show how the features were distribuited among them, as shown bellow:
+There are two groups of properties that were used on our analysis. The first one involves only the sellected properties, based on the conditions mentioned before, and it was used to show how the features were distribuited among them in order to maximize the profit, as shown bellow:
 
 | Feature       |	Status         |	Count   |	(%) Properties|	Profit        |	(%) Profit |
 |---------------|:--------------:|:-------:|:-------------:|:-------------:|:----------:|
@@ -144,5 +144,7 @@ The (%) Properties indicates the percentage of properties included on the specif
 
 It's possible to verify that properties with average design (grade) and without waterfront are the best properties to work with, based on their (%) profit. If we compare to our Profit Density Map, the properties with waterfront have a bigger "mean" profit, not the biggest "sum" of profit. Besides this, properties near water are much more expensive on average, which means that our profit would be concentraded on a few houses, increasing our business risk.
 
-while the second analysis involves the whole dataset (without outliers), which was used to verify a few hiphothesys seeking to find insights as well.
+### 3.2. Hyphotesis:
+
+Different from the first analysis, the second one involves the whole dataset (without outliers), which was used to verify a few hiphothesys seeking to find insights as well.
 
