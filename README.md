@@ -148,3 +148,11 @@ It's possible to verify that properties with average design (grade) and without 
 
 Different from the first analysis, the second one involves the whole dataset (without outliers), which was used to verify a few hiphothesys seeking to find insights as well.
 
+| Hyphotesis                                                                                                 |	Validation |	Business application  |
+|------------------------------------------------------------------------------------------------------------|:----------:|:---------------------:|
+| H1 - Good condition's properties with waterfront view are 50% more expensive than without waterfront view  |	False      |	They are much more expensive, which makes them not a viable option                   |	
+|	H2 - Properties with building year before 1955 are cheaper on average                                      |	False      |	Propertie's price are building year independent    |	
+|	H3 - Properties without basement have a square footage of the land space 15% bigger than properties with it|	True       |	Company should invest on properties without basement as they have a bigger square footage  |	
+|	H4 - The propertie's price growth YoY (year over year) it's 10%                                            |	False      |	There's no difference beyond the two years    |	
+|	H5 - Properties with more than 3 bathrooms had a MoM growth of 5%                                          |	False      |	The monthly increase was 1,64% which does not     |	
+|	H6 - Properties with 2 or more floors are 40% more expensive on average than the others                    |	True       |	3041    |	
