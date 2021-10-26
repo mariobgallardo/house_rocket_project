@@ -5,6 +5,7 @@
 This project aims to assist a real estate company to maximize it's proffits by indicating a selection of properties based on the best conditions, so the company could buy and sell them. 
 
 By using Streamlit, the company can visualize the information on different formats, such as Tables, Graphs and Maps. Check the visualization app bellow:
+
 https://house-rocket-mg.herokuapp.com/
 
 Including 10.505 properties (according their condition and zipcode) and assuming a profit margin of 10% and 30% (as is explained bellow), the final result provides us a maximum profit of US$ 991,216,453.60.
