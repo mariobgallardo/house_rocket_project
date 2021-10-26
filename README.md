@@ -124,3 +124,25 @@ By filtering, it's possible to see on the Region Overview section two maps, such
 
 ![alt text](https://raw.githubusercontent.com/mariobgallardo/house_rocket_project/main/images/Profit%20density.JPG)
 
+## 3. Insights
+### 3.1. Insights and Hypothesys:
+
+There are two groups of properties that were used on our analysis. The first one involves only the sellected properties, based on the conditions mentioned before, and it was used to show how the features were distribuited among them, as shown bellow:
+
+| Feature       |	Status         |	Count   |	(%) Properties|	Profit        |	(%) Profit |
+|---------------|:--------------:|:-------:|:-------------:|:-------------:|:----------:|
+| zipcode       |	98052          |	281     |	2.6749        |	34,242,265.5  |	3.45       |
+|	condition     |	regular        |	6717    |	63.9410       |	624,718,053.0 |	63.02      |
+|	grade         |	average design |	10502   |	99.9714       |	990,555,853.6 |	99.93      |
+|	floors        |	1              |	6595    |	62.7796       |	582,450,946.8 |	58.76      |
+|	bedrooms      |	3              |	5752    |	54.7549       |	525,161,157.7 |	52.98      |
+|	bathrooms     |	1              |	3041    |	28.9481       |	231,043,200.7 |	23.30      |
+|	waterfront    |	no             |	10496   |	99.9143       |	990,330,606.0 |	99.91      |
+|	year_built    |	1977           |	237     |	2.2561        |	24,225,403.6  |	2.44       |
+
+The (%) Properties indicates the percentage of properties included on the specified status of the feature. The (%) Profit indicates the profit obtained by selling these properties compared to the total possible profit.
+
+It's possible to verify that properties with average design (grade) and without waterfront are the best properties to work with, based on their (%) profit. If we compare to our Profit Density Map, the properties with waterfront have a bigger "mean" profit, not the biggest "sum" of profit. Besides this, properties near water are much more expensive on average, which means that our profit would be concentraded on a few houses, increasing our business risk.
+
+while the second analysis involves the whole dataset (without outliers), which was used to verify a few hiphothesys seeking to find insights as well.
+
