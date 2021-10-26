@@ -4,6 +4,11 @@
 
 This project aims to assist a real estate company to maximize it's proffits by indicating a selection of properties based on the best conditions, so the company could buy and sell them. 
 
+By using Streamlit, the company can visualize the information on different formats, such as Tables, Graphs and Maps. Check the visualization app bellow:
+https://house-rocket-mg.herokuapp.com/
+
+Including 10.505 properties (according their condition and zipcode) and assuming a profit margin of 10% and 30% (as is explained bellow), the final result provides us a maximum profit of US$ 991,216,453.60.
+
 ## 1. House Rocket
 ### 1.1. Business Understanding:
 
@@ -14,7 +19,7 @@ The House Rocket's CEO wish to maximize the company profits by finding great opp
 The company's strategy is to buy good properties with low prices to sell them later with higher prices. The greater the difference, the bigger the company's profit. However, there are many features influencing their prices and we don't have enought people to analyze this dataset manually. 
 
 ### 1.2. Business Question:
-In order to take it, it will be provided 2 lists indicating the best properties to buy and the best period to sell them, as well as a visualization link. 
+In order to take it, it will be provided 2 lists indicating the best properties to buy and the best period to sell them, as well as a visualization app. 
 The two main questions behind the project are:
 1) What are the properties that house rocket should buy, and for what price?
 
