@@ -131,14 +131,14 @@ There are two groups of properties that were used on our analysis. The first one
 
 | Feature       |	Status         |	Count   |	(%) Properties|	Profit        |	(%) Profit |
 |---------------|:--------------:|:-------:|:-------------:|:-------------:|:----------:|
-| zipcode       |	98052          |	281     |	2.6749        |	34,242,265.5  |	3.45       |
-|	condition     |	regular        |	6717    |	63.9410       |	624,718,053.0 |	63.02      |
-|	grade         |	average design |	10502   |	99.9714       |	990,555,853.6 |	99.93      |
-|	floors        |	1              |	6595    |	62.7796       |	582,450,946.8 |	58.76      |
-|	bedrooms      |	3              |	5752    |	54.7549       |	525,161,157.7 |	52.98      |
-|	bathrooms     |	1              |	3041    |	28.9481       |	231,043,200.7 |	23.30      |
-|	waterfront    |	no             |	10496   |	99.9143       |	990,330,606.0 |	99.91      |
-|	year_built    |	1977           |	237     |	2.2561        |	24,225,403.6  |	2.44       |
+| zipcode       |	98052          |	281     |	2.67          |	34,242,265.5  |	3.45       |
+|	condition     |	regular        |	6717    |	63.94         |	624,718,053.0 |	63.02      |
+|	grade         |	average design |	10502   |	99.97         |	990,555,853.6 |	99.93      |
+|	floors        |	1              |	6595    |	62.77         |	582,450,946.8 |	58.76      |
+|	bedrooms      |	3              |	5752    |	54.75         |	525,161,157.7 |	52.98      |
+|	bathrooms     |	1              |	3041    |	28.94         |	231,043,200.7 |	23.30      |
+|	waterfront    |	no             |	10496   |	99.91         |	990,330,606.0 |	99.91      |
+|	year_built    |	1977           |	237     |	2.25          |	24,225,403.6  |	2.44       |
 
 The (%) Properties indicates the percentage of properties included on the specified status of the feature. The (%) Profit indicates the profit obtained by selling these properties compared to the total possible profit.
 
@@ -156,3 +156,17 @@ Different from the first analysis, the second one involves the whole dataset (wi
 |	H4 - The propertie's price growth YoY (year over year) it's 10%                                            |	False      |	There's no difference beyond the two years    |	
 |	H5 - Properties with more than 3 bathrooms had a MoM growth of 5%                                          |	False      |	The monthly increase was less (1,64%) than 5% which does not makes them attractive to invest    |	
 |	H6 - Properties with 2 or more floors are 40% more expensive on average than the others                    |	True       |	Company should invest on properties with less than 2 floors   |	
+
+## 4. Financial Outcome
+
+Based on the list of recommended properties to buy and considering the best season to sell them, the scenario of our best profit obtained is showned bellow:
+
+| Purchase cost   |	Sales price      |	Profit         |
+|-----------------|:----------------:|:--------------:|
+|4,079,586,744.00 |	5,070,803,197.60 |	991,216,453.60 |
+
+## 5. Conclusion
+
+The main purpose of this project was to 
+
+
