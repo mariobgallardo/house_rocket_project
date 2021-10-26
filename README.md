@@ -167,7 +167,7 @@ Based on the list of recommended properties to buy and considering the best seas
 
 ## 5. Conclusion
 
-The main purpose of this project was to provide a sellection of properties to buy and the best season to sell them, as well as answer a few business questions in order to find new insights. Although our objective was reached, a visualization app was provided to help the business team on the search of new insights and opportunities, and also provides them the propertie's features and profit according the used filters, helping the team to identify the features that makes properties more attractive to buy and sell operations. 
+The main purpose of this project was to provide a sellection of properties to buy and the best season to sell them, as well as answer a few business questions in order to find new insights. Although our objective was reached, a visualization app was provided to assist the business team on the search of new insights and opportunities, and also provides them the propertie's features and profit according the used filters, helping the team to identify the features that makes properties more attractive to buy and sell operations. 
 It's also important to remember that as more data is collected, more analysis needs to be done. 
 
 
