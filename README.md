@@ -8,7 +8,11 @@ By using Streamlit, the company can visualize the information on different forma
 
 https://house-rocket-mg.herokuapp.com/
 
-Including 10.505 properties (according their condition and zipcode) and assuming a profit margin of 10% and 30% (as is explained bellow), the final result provides us a maximum profit of US$ 991,216,453.60.
+Including 10.505 properties (according their condition and zipcode) and assuming a profit margin of 10% and 30% (as it will be explained later), the final result provides us a maximum profit of US$ 991,216,453.60.
+
+Check the code for more details:
+
+https://github.com/mariobgallardo/house_rocket_project/blob/main/house_rocket_project.ipynb
 
 ## 1. House Rocket
 ### 1.1. Business Understanding:
