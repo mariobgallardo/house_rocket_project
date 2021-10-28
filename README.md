@@ -61,7 +61,7 @@ This dataset shows all properties available to purchase. Check bellow to see som
 | sqft_lot15    | The square footage of the land lots of the nearest 15 neighbors                  |
 
 ### 1.4. Business Assumptions:
-Considering the business understanding during the exploratory data analysis, some assumptions were considered in order to create a few insights. The assumptions are listed bellow:
+Considering the business understanding during the exploratory data analysis, some assumptions were made in order to create a few insights. The assumptions are listed bellow:
 
 * Values (11 and 33) on column bathrooms were considered outliers, adjusting their values based on properties with similar square foot living.
 * Values above 950.000 on column sqft_lot were considered outliers, adjusting their values based on properties with similar price 
